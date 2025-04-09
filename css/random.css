@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+.menu-headerbalk {
+	padding-top: 30px;
+}
+
+.page-top-spacing {
+	padding-top: 170px;
+}
+@media (max-width: 767px) {
+  .page-top-spacing {
+    padding-top: 206px;
+  }
+}
+
+.page-top-spacing2 {
+	padding-top: 92px;
+}
+
+.standaard-font {
+	font-size: 16px;
+	color: #323232;
+}
+
+.standard-color {
+	color: #323232;
+}
+
+.standard-blue {
+	color: #030479;
+}
+
+.standard-orange {
+	color: #ff9900;
+}
+
+.standard-white {
+	color: #ffffff;
+}
+
+.standaard-font-2 {
+	font-size: 15px;
+	color: #323232;
+}
+
+.no-drop {
+	cursor: no-drop;
+}
+
+.standaard-font-3 {
+	font-size: 14px;
+	color: #323232;
+}
+
+.titel-font {
+	font-size: 24px;
+	color: #323232;
+}
+
+
+.titel-font-2 {
+	font-size: 24px;
+	color: #ff9900;
+}
+
+.linkstyle-ec {
+	text-decoration: underline;
+	color: #323232;
+	cursor: pointer;
+}
+
+.linkstyle-breadcrumbs {
+	text-decoration: none;
+	font-size: 13px;
+	color: #030479;
+}
+
+.balance-title {
+	font-size: 13px; 
+}
+
+.earnclix-title {
+	font-size: 19px;
+}
+
+.exchange-title {
+	font-size: 18px;
+}
+
+.about-title {
+	font-size: 20px;
+}
+
+.font-smll {
+	font-size: 15px;
+}
+
+.balance-tny {
+	font-size: 14px; 
+}
+
+.font-nrml {
+	font-size: 16px; 
+}
+
+.font-label {
+	font-size: 17px !important; 
+}
+
+.font-xxl {
+	font-size: 30px; 
+}
+
+.text-style-none {
+	text-decoration: none;
+}
+
+.text-style-line {
+	text-decoration: underline;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.claim-balance-width {
+	min-width: 290px;
+}
+
+.claim-balance-div {
+	padding-left: 50px; 
+	padding-top: 15px; 
+	padding-bottom: 15px;
+}
+
+.fontsize-small {
+	font-size: 12px;
+}
+
+.space-balance-top {
+	min-height: 364px;
+}
+
+.registered-transactions {
+	padding-top: 24px;
+}
+
+.registered-transactions-2 {
+	margin-bottom: -15px;
+}
+
+.vert-top {
+	vertical-align: top;
+}
+
+.coupon-top1 {
+	margin-top: -20px
+}
+
+.coupon-bottom {
+	margin-bottom: 25px
+}
+
+.faq-margin {
+	margin-right: 30px;
+}
+
+.faq-margin-2 {
+	padding-bottom: 3px;
+}
+
+.coupon-align {
+	margin-top: -20px;
+	margin-left:auto; 
+	margin-right: auto; 
+	left:5px; 
+	right:0;
+}
+
+.homemember-align {
+	margin-left:auto; 
+	margin-right: auto; 
+	margin-bottom: 170px; 
+	left:5px; 
+	right:0;
+}
+
+.homemember-align2 {
+	height:6px; 
+	border-bottom: 1px; 
+	border-bottom-color:#cfcfcf; 
+	border-bottom-style:dotted;
+}
+
+.homemember-align3 {
+	padding-top: 4px;
+}
+
+.homemember-align4 {
+	padding-right: 10px;
+}
+
+.coupon-align2 {
+	margin-left: 15px; 
+	margin-right: 15px;
+}
+
+.coupon-align3 {
+	padding-top: 20px; 
+	padding-bottom: 15px;
+}
+
+.coupon-align4 {
+	margin-top: 23px
+}
+
+.clixassistant-align {
+	max-width: 308px;
+}
+
+.clixassistant-align2 {
+	padding-top: 28px;
+}
+
+.login-facebook-padding {
+	padding-left: 50px; 
+	padding-top: 15px; 
+	padding-bottom: 15px;
+}
+
+.facebook {
+	margin-left: 34px; 
+	margin-top:-27px"
+}
+
+.resp-container {
+    position: relative; 
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.hiddenoutput {
+  display: none;
+}
+
+.captcha-active {
+	margin-top: -50px !important; 
+	margin-bottom: 50px !important;
+}
+
+section.cadeaukaart button {
+	color: #fff;
+	background-color: #9D00CF; 
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 5px #700194;
+	-moz-box-shadow: 0 5px #700194;
+	box-shadow: 0 5px #700194;
+}
+section.cadeaukaart button:hover, section.cadeaukaart button.hover {
+	background-color: #9304C1;
+}
+section.cadeaukaart button:active, section.cadeaukaart button.active {
+	background-color: #9D00CF;
+	-webkit-box-shadow: 0 2px #700194;
+	-moz-box-shadow: 0 2px #700194;
+	box-shadow: 0 2px #700194;
+	-webkit-transform: translateY(3px);
+	-moz-transform: translateY(3px);
+	-ms-transform: translateY(3px);
+	-o-transform: translateY(3px);
+	transform: translateY(3px);
+}
+
+section.cadeaukaart button.disabled {
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
+	
