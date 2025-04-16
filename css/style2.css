@@ -1456,7 +1456,7 @@ margin: 0 auto;
 	z-index: -1;
 }
 .cards-section .card{
-	min-width: 100px;
+	min-width: 105px;
 	width: 100%;
 	max-width: 130px; 
 	height: 155px;
@@ -1470,7 +1470,7 @@ margin: 0 auto;
 width: 100%;
 background-color: #CDE1FD;
 	margin: 0px ;
-	min-height: 65px;
+	min-height: 70px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1489,10 +1489,10 @@ background-color: #CDE1FD;
     height: 42px;
 }
 .cards-section .card article {
-	 padding: 7px 10px !important;
+	 padding: 4px 10px !important;
 }
 .cards-section .card article .card-title, .cards-section .card article .card-time, .cards-section .card article .card-earning{
-	font-size: 12px !important;
+	font-size: 13px !important;
 	margin-bottom: 4px;
 }
 .cards-section .card .pc-article .card-title::before {
@@ -1532,6 +1532,7 @@ background-color: #CDE1FD;
 
 
 
+
 /*DESKTOP STIJLING*/
 @media (min-width: 768px) {
 	h1 {
@@ -1553,6 +1554,15 @@ background-color: #CDE1FD;
 	z-index: 0;
 }
 /* card stijling */
+	.cards-section .card-wrapper {
+	transform: perspective(1000px);
+		position: absolute;
+		    width: 100%;
+    max-width: 152px;
+    height: 193px;
+		margin: 0;
+	}	
+	
 .cards-section .card {
     width: 100%;
     max-width: 152px;
@@ -1560,14 +1570,20 @@ background-color: #CDE1FD;
     border-radius: 10px;
     margin: 0;
     position: absolute;
-   transition: transform 0.5s ease-in-out;
+  transform-style: preserve-3d !important;
 }
+	.cards-section .card a {
+		  transform: translateZ(50px);
+	}
 .cards-section .card .thumb{	
 min-height: 90px;
 }
 
 .cards-section img {
     height: 52px;
+	
+	transform: translateZ(30px);
+    will-change: transform;
 }
 .cards-section .card article {
     padding: 9px 10px !important;
@@ -1613,7 +1629,7 @@ min-height: 90px;
 
 	
 /* card effect */
-.cards-section .card:first-of-type {
+.cards-section .card-wrapper{
     left: 0;
     top: 0;
 }
@@ -1621,19 +1637,26 @@ min-height: 90px;
     right: 0;
     top: 0;
 }
-.cards-section .card:hover{
-	transform: translateY(-20px) ;
-}
 .cards-section .card.bigger {
-    left: 50%;
     top: 0;
-    transform: translateX(-50%) scale(1.15);
     z-index: 1;
 	transition: transform 0.5s ease-in-out;
+	
+	height: 209px;
+	max-width: 165px !important;
+	margin-top: -10px;
 }
-.cards-section .card.bigger:hover{
-	transform: translateY(-20px) translateX(-50%) scale(1.15);
-}
+	.cards-section .card.bigger .thumb{
+		min-height: 100px;
+	}
+	.cards-section .card.bigger .thumb .card-image{
+		height: 55px;
+	}
+	
+.cards-section .bigger article .card-title, .cards-section .bigger article .card-time, .cards-section .bigger article .card-earning{
+	font-size: 15px !important;
+	margin-bottom: 5px;
+	}
 
 	
 }
