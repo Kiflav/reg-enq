@@ -44,6 +44,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 <link rel="stylesheet" href="css/ss.css">
 <link href="css/css_002.css" type="text/css" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+
 
 
 <meta content="website" property="og:type">
@@ -212,8 +214,10 @@ van enquêtes</span>
                   </div>
 				
 				<div class="cards-section">
-					<div class="card"> 
-						<a href="https://www.euroclix.nl/cadeaukaarten">
+					
+					<div class="card-wrapper">
+							<div class="card tilt" data-til> 
+						<a href="https://www.euroclix.nl/survey">
 							<div class="thumb" >
 								<img class="card-image" alt="receipt" src="img/receipt.svg">
 							</div>
@@ -234,9 +238,11 @@ van enquêtes</span>
 						</article>
 						</a>
 					</div>
+					</div>
+				
 					
-				   <div class="card bigger">
-						<a href="https://www.euroclix.nl/cadeaukaarten">
+				   <div class="card bigger tilt" data-tilt>
+						<a href="https://www.euroclix.nl/survey">
 							<div class="thumb" >
 								<img class="card-image" alt="food" src="img/food.svg">
 							</div>
@@ -258,8 +264,8 @@ van enquêtes</span>
 						</a>
 					</div>
 					
-					<div class="card"> 
-						<a href="https://www.euroclix.nl/cadeaukaarten">
+					<div class="card tilt" data-tilt> 
+						<a href="https://www.euroclix.nl/survey">
 							<div class="thumb">
 							<img class="card-image" alt="work" src="img/man.svg">
 							</div>
@@ -1932,6 +1938,21 @@ lager is. Je kunt dan nog verder doorsparen. Neem <a target="_blank" href="https
 
 <script type="text/javascript" src="js/carousel.js"></script>
 <script type="text/javascript" src="js/carousel-mobile.js"></script>
+<script>
+  VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    max: 20,            
+    speed: 1000,       
+    scale: 1.05,           
+	transition: true,
+	reset: true, 
+	easing: "cubic-bezier(.03,.98,.52,.99)",
+    perspective: 1000,   
+    gyroscope: true,     
+    glare: false          
+  });
+	
+	
+</script>
 
 <script>
    document.addEventListener("DOMContentLoaded", function() {
