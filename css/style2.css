@@ -1502,8 +1502,8 @@ background-color: #CDE1FD;
 .cards-section .card .pc-article .card-title::before {
     content: "";
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
      background-image: url('https://img.euroclix.nl/images/redesign/registreren/card-title.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -1513,8 +1513,8 @@ background-color: #CDE1FD;
 .cards-section .card .pc-article .card-earning::before {
     content: "";
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
      background-image: url('https://img.euroclix.nl/images/redesign/registreren/value.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -1525,8 +1525,8 @@ background-color: #CDE1FD;
 .cards-section .card .pc-article .card-time::before {
     content: "";
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
      background-image: url('	https://img.euroclix.nl/images/redesign/registreren/card-time.svg');
     background-size: contain;
     background-repeat: no-repeat;
