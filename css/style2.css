@@ -1476,10 +1476,14 @@ background-color: #CDE1FD;
 	align-items: center;
 
 }
-.cards-section .card.bigger{
-	transform: scale(1.15);
+
+@media (max-width:768px) {
+	.cards-section .card-wrapper .card.bigger{
+	transform: scale(1.15) !important;
 	z-index: 2;
 }
+}
+
 
 .cards-section a {
 	text-decoration: none !important;
@@ -1629,7 +1633,7 @@ min-height: 90px;
 
 	
 /* card effect */
-.cards-section .card-wrapper{
+.cards-section .card:first-of-type{
     left: 0;
     top: 0;
 }
