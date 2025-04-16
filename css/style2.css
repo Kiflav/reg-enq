@@ -1477,14 +1477,6 @@ background-color: #CDE1FD;
 
 }
 
-@media (max-width:768px) {
-	.cards-section .card-wrapper .card.bigger{
-	transform: scale(1.15) !important;
-	z-index: 2;
-}
-}
-
-
 .cards-section a {
 	text-decoration: none !important;
 }
@@ -1533,7 +1525,13 @@ background-color: #CDE1FD;
     margin-right: 5px;
     vertical-align: middle;
 }
-
+@media(max-width:768px){
+	.cards-section .card.bigger {
+    top: 0;
+    z-index: 1;
+	transform: scale(1.15) !important;
+}
+}
 
 
 
