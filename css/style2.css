@@ -1573,7 +1573,7 @@ background-color: #CDE1FD;
     border-radius: 10px;
     margin: 0;
     position: absolute;
-  transform-style: preserve-3d !important;
+  transform-style: preserve-3d;
 }
 	.cards-section .card a {
 		  transform: translateZ(50px);
@@ -1643,7 +1643,6 @@ min-height: 90px;
 .cards-section .card.bigger {
     top: 0;
     z-index: 1;
-	transition: transform 0.5s ease-in-out;
 	
 	height: 209px;
 	max-width: 165px !important;
